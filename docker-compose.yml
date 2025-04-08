@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      dockerfile_inline: |
+        FROM ruby:latest
+        WORKDIR /app
+        COPY Gemfile rubyrag.gemspec ./
+        RUN bundle install
+    working_dir: /app
+    command: sleep infinity
+    volumes:
+      - .:/app
