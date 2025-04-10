@@ -102,6 +102,3 @@ DEPENDENCIES
   rspec
   rubocop
   rubyrag!
-
-BUNDLED WITH
-   2.6.2
