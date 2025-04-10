@@ -35,6 +35,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "debug", ">= 1.0.0"
+  spec.add_dependency "aws-sdk-s3"
+  spec.add_dependency "libxml-ruby"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
