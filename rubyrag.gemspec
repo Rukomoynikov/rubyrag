@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rubyrag"
-  spec.version = "0.1.0"
+  spec.version = "0.1.1"
   spec.authors = ["Max Rukomoynikov"]
   spec.email = ["rukomoynikov@gmail.com"]
 

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubyrag (0.1.0)
+    rubyrag (0.1.1)
       aws-sdk-s3
       libxml-ruby
 
